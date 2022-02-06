@@ -1,0 +1,109 @@
+.TodoField {
+    /* border: 1px solid black; */
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin:5px auto;
+  }
+  
+  .underline {
+    text-decoration: line-through;
+  }
+  
+  .addBtn {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border: none;
+    color: white;
+    background-color: rgb(243, 70, 229);
+    display: grid;
+    place-content: center;
+    position: absolute;
+    right:40%;
+    top: 19%;
+  }
+  
+  .underline,
+  .no-underline {
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    outline: none;
+    font-size: 15px;
+    background-color: darkblue;
+    border: 1px solid rgb(235, 84, 84);
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  
+  .radioBtn {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* border:1px solid black; */
+    background-color: green;
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  .radioBtn:checked {
+    background-color: #0080005d;
+  }
+  
+  .todoApp {
+    /* border: 1px solid black; */
+    padding: 50px;
+    background-color: rgb(180, 202, 243);
+    text-align: center;
+  }
+  
+  .del {
+    background-color: maroon;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    /* position: relative; */
+    /* right: 60px; */
+  }
+
+  .del:hover{
+    background-color: rgba(128, 0, 0, 0.096);
+  }
+  
+  .diffBtn,.del2{
+    background-color: rgb(180, 202, 243);
+    color: rgb(180, 202, 243);
+    margin-bottom: 50px;
+  }
+
+  .pagination{
+    /* border:1px solid black; */
+    width: 200px;
+    margin:30px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .prev,.nex{
+    background-color: navy;
+    color: white;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+  }
+
+  .disablePrev,.disableNex{
+    background-color: rgba(0, 0, 128, 0.082);
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+  }
